@@ -1,0 +1,3630 @@
+[
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "bufargs.o",
+   "bufargs.c"
+  ],
+  "file": "bufargs.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "cliconn.o",
+   "cliconn.c"
+  ],
+  "file": "cliconn.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "clrfl.o",
+   "clrfl.c"
+  ],
+  "file": "clrfl.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "daemonize.o",
+   "daemonize.c"
+  ],
+  "file": "daemonize.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "error.o",
+   "error.c"
+  ],
+  "file": "error.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "errorlog.o",
+   "errorlog.c"
+  ],
+  "file": "errorlog.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "lockreg.o",
+   "lockreg.c"
+  ],
+  "file": "lockreg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "locktest.o",
+   "locktest.c"
+  ],
+  "file": "locktest.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "openmax.o",
+   "openmax.c"
+  ],
+  "file": "openmax.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "pathalloc.o",
+   "pathalloc.c"
+  ],
+  "file": "pathalloc.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "popen.o",
+   "popen.c"
+  ],
+  "file": "popen.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "prexit.o",
+   "prexit.c"
+  ],
+  "file": "prexit.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "prmask.o",
+   "prmask.c"
+  ],
+  "file": "prmask.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ptyfork.o",
+   "ptyfork.c"
+  ],
+  "file": "ptyfork.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ptyopen.o",
+   "ptyopen.c"
+  ],
+  "file": "ptyopen.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "readn.o",
+   "readn.c"
+  ],
+  "file": "readn.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "recvfd.o",
+   "recvfd.c"
+  ],
+  "file": "recvfd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "senderr.o",
+   "senderr.c"
+  ],
+  "file": "senderr.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sendfd.o",
+   "sendfd.c"
+  ],
+  "file": "sendfd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "servaccept.o",
+   "servaccept.c"
+  ],
+  "file": "servaccept.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "servlisten.o",
+   "servlisten.c"
+  ],
+  "file": "servlisten.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "setfd.o",
+   "setfd.c"
+  ],
+  "file": "setfd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "setfl.o",
+   "setfl.c"
+  ],
+  "file": "setfl.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "signal.o",
+   "signal.c"
+  ],
+  "file": "signal.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "signalintr.o",
+   "signalintr.c"
+  ],
+  "file": "signalintr.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleepus.o",
+   "sleepus.c"
+  ],
+  "file": "sleepus.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "spipe.o",
+   "spipe.c"
+  ],
+  "file": "spipe.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "tellwait.o",
+   "tellwait.c"
+  ],
+  "file": "tellwait.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ttymodes.o",
+   "ttymodes.c"
+  ],
+  "file": "ttymodes.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "writen.o",
+   "writen.c"
+  ],
+  "file": "writen.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/lib",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleep.o",
+   "sleep.c"
+  ],
+  "file": "sleep.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getcputc.c",
+   "-o",
+   "getcputc",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getcputc.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "hello.c",
+   "-o",
+   "hello",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "hello.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "ls1.c",
+   "-o",
+   "ls1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "ls1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mycat.c",
+   "-o",
+   "mycat",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mycat.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "shell1.c",
+   "-o",
+   "shell1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "shell1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "shell2.c",
+   "-o",
+   "shell2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "shell2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "testerror.c",
+   "-o",
+   "testerror",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "testerror.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/intro",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "uidgid.c",
+   "-o",
+   "uidgid",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "uidgid.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ruptime.o",
+   "ruptime.c"
+  ],
+  "file": "ruptime.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "clconn2.o",
+   "clconn2.c"
+  ],
+  "file": "clconn2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ruptimed.o",
+   "ruptimed.c"
+  ],
+  "file": "ruptimed.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "initsrv2.o",
+   "initsrv2.c"
+  ],
+  "file": "initsrv2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ruptimed-fd.o",
+   "ruptimed-fd.c"
+  ],
+  "file": "ruptimed-fd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ruptimed-dg.o",
+   "ruptimed-dg.c"
+  ],
+  "file": "ruptimed-dg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "findsvc.c",
+   "-L../lib",
+   "-lapue",
+   "-o",
+   "findsvc"
+  ],
+  "file": "findsvc.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "ruptime-dg.c",
+   "-L../lib",
+   "-lapue",
+   "-o",
+   "ruptime-dg"
+  ],
+  "file": "ruptime-dg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "clconn.o",
+   "clconn.c"
+  ],
+  "file": "clconn.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/sockets",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "initsrv1.o",
+   "initsrv1.c"
+  ],
+  "file": "initsrv1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "deadlock.c",
+   "-o",
+   "deadlock",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "deadlock.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mandatory.c",
+   "-o",
+   "mandatory",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mandatory.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mcopy2.c",
+   "-o",
+   "mcopy2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mcopy2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "nonblockw.c",
+   "-o",
+   "nonblockw",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "nonblockw.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "rot13a.c",
+   "-o",
+   "rot13a",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "rot13a.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "rot13c2.c",
+   "-o",
+   "rot13c2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "rot13c2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/advio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "lockfile.o",
+   "lockfile.c"
+  ],
+  "file": "lockfile.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/daemons",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "init.o",
+   "init.c"
+  ],
+  "file": "init.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/daemons",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "reread.o",
+   "reread.c"
+  ],
+  "file": "reread.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/daemons",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "reread2.o",
+   "reread2.c"
+  ],
+  "file": "reread2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/daemons",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "single.o",
+   "single.c"
+  ],
+  "file": "single.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/datafiles",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "strftime.c",
+   "-o",
+   "strftime",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "strftime.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/datafiles",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "getpwnam.o",
+   "getpwnam.c"
+  ],
+  "file": "getpwnam.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/db",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "db.o",
+   "db.c"
+  ],
+  "file": "db.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/db",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-I.",
+   "t4.c"
+  ],
+  "file": "t4.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "doatexit.c",
+   "-o",
+   "doatexit",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "doatexit.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "echoarg.c",
+   "-o",
+   "echoarg",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "echoarg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getrlimit.c",
+   "-o",
+   "getrlimit",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getrlimit.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "hello1.c",
+   "-o",
+   "hello1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "hello1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "testjmp.c",
+   "-o",
+   "testjmp",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "testjmp.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "opendata.o",
+   "opendata.c"
+  ],
+  "file": "opendata.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/environ",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "scope.o",
+   "scope.c"
+  ],
+  "file": "scope.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/fileio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "fileflags.c",
+   "-o",
+   "fileflags",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "fileflags.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/fileio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "hole.c",
+   "-o",
+   "hole",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "hole.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/fileio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mycat.c",
+   "-o",
+   "mycat",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mycat.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/fileio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "seek.c",
+   "-o",
+   "seek",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "seek.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/fileio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "setfl.o",
+   "setfl.c"
+  ],
+  "file": "setfl.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "access.c",
+   "-o",
+   "access",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "access.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "cdpwd.c",
+   "-o",
+   "cdpwd",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "cdpwd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "changemod.c",
+   "-o",
+   "changemod",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "changemod.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "devrdev.c",
+   "-o",
+   "devrdev",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "devrdev.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "filetype.c",
+   "-o",
+   "filetype",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "filetype.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mycd.c",
+   "-o",
+   "mycd",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mycd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "umask.c",
+   "-o",
+   "umask",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "umask.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "unlink.c",
+   "-o",
+   "unlink",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "unlink.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/filedir",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "ftw8.c",
+   "-o",
+   "ftw8",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "ftw8.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "add2.c",
+   "-o",
+   "add2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "add2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "add2stdio.c",
+   "-o",
+   "add2stdio",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "add2stdio.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "devzero.c",
+   "-o",
+   "devzero",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "devzero.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "myuclc.c",
+   "-o",
+   "myuclc",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "myuclc.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pipe1.c",
+   "-o",
+   "pipe1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pipe1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pipe2.c",
+   "-o",
+   "pipe2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pipe2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pipe4.c",
+   "-o",
+   "pipe4",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pipe4.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "popen1.c",
+   "-o",
+   "popen1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "popen1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "popen2.c",
+   "-o",
+   "popen2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "popen2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "tshm.c",
+   "-o",
+   "tshm",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "tshm.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "popen.o",
+   "popen.c"
+  ],
+  "file": "popen.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "slock.o",
+   "slock.c"
+  ],
+  "file": "slock.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc1",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "tellwait.o",
+   "tellwait.c"
+  ],
+  "file": "tellwait.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "bindunix.c",
+   "-o",
+   "bindunix",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "bindunix.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pollmsg.c",
+   "-o",
+   "pollmsg",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pollmsg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "sendmsg.c",
+   "-o",
+   "sendmsg",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "sendmsg.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/open",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "main.o",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/open",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "open.o",
+   "open.c"
+  ],
+  "file": "open.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "main.o",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "request.o",
+   "request.c"
+  ],
+  "file": "request.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "cliargs.o",
+   "cliargs.c"
+  ],
+  "file": "cliargs.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "client.o",
+   "client.c"
+  ],
+  "file": "client.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "loop.poll.o",
+   "loop.poll.c"
+  ],
+  "file": "loop.poll.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "loop.select.o",
+   "loop.select.c"
+  ],
+  "file": "loop.select.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/open.fe",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "main.o",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/open.fe",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "open.o",
+   "open.c"
+  ],
+  "file": "open.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend.fe",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "main.o",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend.fe",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "request.o",
+   "request.c"
+  ],
+  "file": "request.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/ipc2/opend.fe",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "cliargs.o",
+   "cliargs.c"
+  ],
+  "file": "cliargs.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "echoall.c",
+   "-o",
+   "echoall",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "echoall.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "exec1.c",
+   "-o",
+   "exec1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "exec1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "exec2.c",
+   "-o",
+   "exec2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "exec2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "fork1.c",
+   "-o",
+   "fork1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "fork1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "fork2.c",
+   "-o",
+   "fork2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "fork2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "nice.c",
+   "-o",
+   "nice",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "nice.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pruids.c",
+   "-o",
+   "pruids",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pruids.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "tellwait1.c",
+   "-o",
+   "tellwait1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "tellwait1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "tellwait2.c",
+   "-o",
+   "tellwait2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "tellwait2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "test1.c",
+   "-o",
+   "test1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "test1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "times1.c",
+   "-o",
+   "times1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "times1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "vfork1.c",
+   "-o",
+   "vfork1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "vfork1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "wait1.c",
+   "-o",
+   "wait1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "wait1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "system.o",
+   "system.c"
+  ],
+  "file": "system.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "systest1.o",
+   "systest1.c"
+  ],
+  "file": "systest1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "systest3.o",
+   "systest3.c"
+  ],
+  "file": "systest3.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/proc",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-DHAS_AXSIG",
+   "-DHAS_ACORE",
+   "-o",
+   "pracct",
+   "pracct.c",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pracct.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/pty",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "main.o",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/pty",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "loop.o",
+   "loop.c"
+  ],
+  "file": "loop.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/pty",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "driver.o",
+   "driver.c"
+  ],
+  "file": "driver.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/relation",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "orphan3.c",
+   "-o",
+   "orphan3",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "orphan3.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "critical.c",
+   "-o",
+   "critical",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "critical.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mask.c",
+   "-o",
+   "mask",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mask.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "read1.c",
+   "-o",
+   "read1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "read1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "read2.c",
+   "-o",
+   "read2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "read2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "reenter.c",
+   "-o",
+   "reenter",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "reenter.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "sigtstp.c",
+   "-o",
+   "sigtstp",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "sigtstp.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "sigusr.c",
+   "-o",
+   "sigusr",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "sigusr.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "suspend1.c",
+   "-o",
+   "suspend1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "suspend1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "suspend2.c",
+   "-o",
+   "suspend2",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "suspend2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "systest2.o",
+   "systest2.c"
+  ],
+  "file": "systest2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "system.o",
+   "system.c"
+  ],
+  "file": "system.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "tsleep2.o",
+   "tsleep2.c"
+  ],
+  "file": "tsleep2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleep2.o",
+   "sleep2.c"
+  ],
+  "file": "sleep2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "abort.o",
+   "abort.c"
+  ],
+  "file": "abort.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/signals",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleep1.o",
+   "sleep1.c"
+  ],
+  "file": "sleep1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/standards",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "conf.c",
+   "-o",
+   "conf",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "conf.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/standards",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "options.c",
+   "-o",
+   "options",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "options.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "buf.c",
+   "-o",
+   "buf",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "buf.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "fgetsfputs.c",
+   "-o",
+   "fgetsfputs",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "fgetsfputs.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getcharbug.c",
+   "-o",
+   "getcharbug",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getcharbug.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getcputc.c",
+   "-o",
+   "getcputc",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getcputc.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "mkstemp.c",
+   "-o",
+   "mkstemp",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "mkstemp.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/stdio",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "tempfiles.c",
+   "-o",
+   "tempfiles",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "tempfiles.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "csize.c",
+   "-o",
+   "csize",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "csize.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "settty.c",
+   "-o",
+   "settty",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "settty.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "t_getpass.c",
+   "-o",
+   "t_getpass",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "t_getpass.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "t_isatty.c",
+   "-o",
+   "t_isatty",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "t_isatty.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "t_raw.c",
+   "-o",
+   "t_raw",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "t_raw.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "t_ttyname.c",
+   "-o",
+   "t_ttyname",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "t_ttyname.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "winch.c",
+   "-o",
+   "winch",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "winch.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ctermid.o",
+   "ctermid.c"
+  ],
+  "file": "ctermid.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "getpass.o",
+   "getpass.c"
+  ],
+  "file": "getpass.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "isatty.o",
+   "isatty.c"
+  ],
+  "file": "isatty.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/termios",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "ttyname.o",
+   "ttyname.c"
+  ],
+  "file": "ttyname.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "atfork.c",
+   "-o",
+   "atfork",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "atfork.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "suspend.c",
+   "-o",
+   "suspend",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "suspend.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "detach.o",
+   "detach.c"
+  ],
+  "file": "detach.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "getenv1.o",
+   "getenv1.c"
+  ],
+  "file": "getenv1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "getenv2.o",
+   "getenv2.c"
+  ],
+  "file": "getenv2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threadctl",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "getenv3.o",
+   "getenv3.c"
+  ],
+  "file": "getenv3.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "badexit2.c",
+   "-o",
+   "badexit2",
+   "-L../lib",
+   "-lapue",
+   "-pthread"
+  ],
+  "file": "badexit2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "cleanup.c",
+   "-o",
+   "cleanup",
+   "-L../lib",
+   "-lapue",
+   "-pthread"
+  ],
+  "file": "cleanup.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "exitstatus.c",
+   "-o",
+   "exitstatus",
+   "-L../lib",
+   "-lapue",
+   "-pthread"
+  ],
+  "file": "exitstatus.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "threadid.c",
+   "-o",
+   "threadid",
+   "-L../lib",
+   "-lapue",
+   "-pthread"
+  ],
+  "file": "threadid.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "condvar.o",
+   "condvar.c"
+  ],
+  "file": "condvar.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "maketimeout.o",
+   "maketimeout.c"
+  ],
+  "file": "maketimeout.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "mutex1.o",
+   "mutex1.c"
+  ],
+  "file": "mutex1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "mutex2.o",
+   "mutex2.c"
+  ],
+  "file": "mutex2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "mutex3.o",
+   "mutex3.c"
+  ],
+  "file": "mutex3.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/threads",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "rwlock.o",
+   "rwlock.c"
+  ],
+  "file": "rwlock.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/printer",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "print.o",
+   "print.c"
+  ],
+  "file": "print.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/printer",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "util.o",
+   "util.c"
+  ],
+  "file": "util.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/printer",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "../sockets/clconn2.o",
+   "../sockets/clconn2.c"
+  ],
+  "file": "../sockets/clconn2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/printer",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "printd.o",
+   "printd.c"
+  ],
+  "file": "printd.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/printer",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "../sockets/initsrv2.o",
+   "../sockets/initsrv2.c"
+  ],
+  "file": "../sockets/initsrv2.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "bo.c",
+   "-o",
+   "bo",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "bo.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "fifo1.c",
+   "-o",
+   "fifo1",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "fifo1.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getlogin.c",
+   "-o",
+   "getlogin",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getlogin.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "goodexit.c",
+   "-o",
+   "goodexit",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "goodexit.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "longpath.c",
+   "-o",
+   "longpath",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "longpath.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "pendlock.c",
+   "-o",
+   "pendlock",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "pendlock.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "prtime.c",
+   "-o",
+   "prtime",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "prtime.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "sizepipe.c",
+   "-o",
+   "sizepipe",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "sizepipe.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "vfork3.c",
+   "-o",
+   "vfork3",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "vfork3.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "zombie.c",
+   "-o",
+   "zombie",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "zombie.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "asyncsocket.o",
+   "asyncsocket.c"
+  ],
+  "file": "asyncsocket.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "fmemopen.o",
+   "fmemopen.c"
+  ],
+  "file": "fmemopen.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "openmax.o",
+   "openmax.c"
+  ],
+  "file": "openmax.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleep.o",
+   "sleep.c"
+  ],
+  "file": "sleep.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleepus_poll.o",
+   "sleepus_poll.c"
+  ],
+  "file": "sleepus_poll.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "-c",
+   "-o",
+   "sleepus_select.o",
+   "sleepus_select.c"
+  ],
+  "file": "sleepus_select.c"
+ },
+ {
+  "directory": "/Users/wsh/src/apue.3e-clion/exercises",
+  "arguments": [
+   "gcc",
+   "-ansi",
+   "-I../include",
+   "-Wall",
+   "-DMACOS",
+   "-D_DARWIN_C_SOURCE",
+   "-ggdb3",
+   "getpw44bsd.c",
+   "-o",
+   "getpw44bsd",
+   "-L../lib",
+   "-lapue"
+  ],
+  "file": "getpw44bsd.c"
+ }
+]

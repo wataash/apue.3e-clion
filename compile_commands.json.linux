@@ -1,0 +1,3628 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "initsrv1.o",
+            "initsrv1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "initsrv1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "exec1",
+            "exec1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "exec1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ptyopen.o",
+            "ptyopen.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "ptyopen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "orphan3",
+            "orphan3.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/relation",
+        "file": "orphan3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleep.o",
+            "sleep.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "sleep.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "exitstatus",
+            "exitstatus.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "exitstatus.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "setfl.o",
+            "setfl.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/fileio",
+        "file": "setfl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mutex2.o",
+            "mutex2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "mutex2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "maketimeout.o",
+            "maketimeout.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "maketimeout.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "umask",
+            "umask.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "umask.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "filetype",
+            "filetype.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "filetype.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/open",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "suspend1",
+            "suspend1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "suspend1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "cdpwd",
+            "cdpwd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "cdpwd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "error.o",
+            "error.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "error.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "findsvc",
+            "findsvc.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "findsvc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "recvfd.o",
+            "recvfd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "recvfd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mutex3.o",
+            "mutex3.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "mutex3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "longpath",
+            "longpath.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "longpath.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "bo",
+            "bo.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "bo.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "sendmsg",
+            "sendmsg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2",
+        "file": "sendmsg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "fork2",
+            "fork2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "fork2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "changemod",
+            "changemod.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "changemod.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "getpwsvr4",
+            "getpwsvr4.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "getpwsvr4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "popen.o",
+            "popen.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "popen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-fPIC",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "db.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/db",
+        "file": "db.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getpwnam.o",
+            "getpwnam.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/datafiles",
+        "file": "getpwnam.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ctermid.o",
+            "ctermid.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "ctermid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "wait1",
+            "wait1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "wait1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "print.o",
+            "print.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/printer",
+        "file": "print.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "loop.poll.o",
+            "loop.poll.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "loop.poll.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "pendlock",
+            "pendlock.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "pendlock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getenv3.o",
+            "getenv3.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "getenv3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tsleep2.o",
+            "tsleep2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "tsleep2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "timeout.o",
+            "timeout.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "timeout.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "prtime",
+            "prtime.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "prtime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "strftime",
+            "strftime.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/datafiles",
+        "file": "strftime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "fileflags",
+            "fileflags.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/fileio",
+        "file": "fileflags.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "rot13c2",
+            "rot13c2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "rot13c2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "myuclc",
+            "myuclc.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "myuclc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "servaccept.o",
+            "servaccept.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "servaccept.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/open.fe",
+        "file": "open.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "opendata.o",
+            "opendata.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "opendata.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getpass.o",
+            "getpass.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "getpass.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "systest1.o",
+            "systest1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "systest1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tellwait.o",
+            "tellwait.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "tellwait.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "lockfile.o",
+            "lockfile.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "lockfile.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "child",
+            "child.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "child.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "timedlock",
+            "timedlock.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "timedlock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mkstemp",
+            "mkstemp.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "mkstemp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mask",
+            "mask.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "mask.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getcharbug",
+            "getcharbug.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "getcharbug.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend.fe",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "writen.o",
+            "writen.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "writen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "setfl.o",
+            "setfl.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "setfl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleepus_select.o",
+            "sleepus_select.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "sleepus_select.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tellwait.o",
+            "tellwait.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "tellwait.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "bufargs.o",
+            "bufargs.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "bufargs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "system.o",
+            "system.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "system.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "test1",
+            "test1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "test1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "critical",
+            "critical.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "critical.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleepus_poll.o",
+            "sleepus_poll.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "sleepus_poll.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "openmax.o",
+            "openmax.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "openmax.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "zombie",
+            "zombie.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "zombie.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "prexit.o",
+            "prexit.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "prexit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "request.o",
+            "request.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "request.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "pollmsg",
+            "pollmsg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2",
+        "file": "pollmsg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "single.o",
+            "single.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/daemons",
+        "file": "single.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "fgetsfputs",
+            "fgetsfputs.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "fgetsfputs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "cliargs.o",
+            "cliargs.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend.fe",
+        "file": "cliargs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sigusr",
+            "sigusr.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "sigusr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "nice",
+            "nice.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "nice.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mandatory",
+            "mandatory.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "mandatory.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "abort.o",
+            "abort.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "abort.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "unlink",
+            "unlink.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "unlink.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "asyncsocket.o",
+            "asyncsocket.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "asyncsocket.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getenv2.o",
+            "getenv2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "getenv2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "servlisten.o",
+            "servlisten.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "servlisten.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mcopy2",
+            "mcopy2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "mcopy2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getcputc",
+            "getcputc.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "getcputc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "exec2",
+            "exec2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "exec2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ptyfork.o",
+            "ptyfork.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "ptyfork.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "pipe1",
+            "pipe1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "pipe1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "t_raw",
+            "t_raw.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "t_raw.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "popen1",
+            "popen1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "popen1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sigtstp",
+            "sigtstp.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "sigtstp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "shell1",
+            "shell1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "shell1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ls1",
+            "ls1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "ls1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ttyname.o",
+            "ttyname.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "ttyname.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-I.",
+            "t4.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/db",
+        "file": "t4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "reread2.o",
+            "reread2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/daemons",
+        "file": "reread2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "nonblockw",
+            "nonblockw.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "nonblockw.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "goodexit",
+            "goodexit.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "goodexit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "popen.o",
+            "popen.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "popen.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getcputc",
+            "getcputc.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "getcputc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "suspend",
+            "suspend.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "suspend.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "read1",
+            "read1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "read1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "add2",
+            "add2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "add2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "suspend2",
+            "suspend2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "suspend2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "memstr",
+            "memstr.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "memstr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "badexit2",
+            "badexit2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "badexit2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "sizepipe",
+            "sizepipe.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "sizepipe.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "systest2.o",
+            "systest2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "systest2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/pty",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "t_ttyname",
+            "t_ttyname.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "t_ttyname.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "pipe4",
+            "pipe4.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "pipe4.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "cliconn.o",
+            "cliconn.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "cliconn.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tellwait2",
+            "tellwait2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "tellwait2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "testjmp",
+            "testjmp.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "testjmp.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "cliargs.o",
+            "cliargs.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "cliargs.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleep.o",
+            "sleep.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "sleep.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mycd",
+            "mycd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "mycd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ftw8",
+            "ftw8.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "ftw8.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "client.o",
+            "client.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "client.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "scope.o",
+            "scope.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "scope.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "popen2",
+            "popen2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "popen2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sendfd.o",
+            "sendfd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "sendfd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "deadlock",
+            "deadlock.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "deadlock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "clconn.o",
+            "clconn.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "clconn.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleep1.o",
+            "sleep1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "sleep1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "rot13a",
+            "rot13a.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/advio",
+        "file": "rot13a.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ruptime.o",
+            "ruptime.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "ruptime.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "readn.o",
+            "readn.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "readn.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "devzero",
+            "devzero.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "devzero.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "add2stdio",
+            "add2stdio.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "add2stdio.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "barrier",
+            "barrier.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "barrier.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "hello1",
+            "hello1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "hello1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "senderr.o",
+            "senderr.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "senderr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getrlimit",
+            "getrlimit.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "getrlimit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "winch",
+            "winch.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "winch.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "util.o",
+            "util.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/printer",
+        "file": "util.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "atfork",
+            "atfork.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "atfork.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "options",
+            "options.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/standards",
+        "file": "options.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "spipe.o",
+            "spipe.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "spipe.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "rwlock.o",
+            "rwlock.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "rwlock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tshm",
+            "tshm.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "tshm.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mycat",
+            "mycat.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "mycat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleep2.o",
+            "sleep2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "sleep2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "daemonize.o",
+            "daemonize.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "daemonize.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mycat",
+            "mycat.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/fileio",
+        "file": "mycat.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "settty",
+            "settty.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "settty.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "pathalloc.o",
+            "pathalloc.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "pathalloc.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "t_getpass",
+            "t_getpass.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "t_getpass.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "printd.o",
+            "printd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/printer",
+        "file": "printd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "clconn2.o",
+            "clconn2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "clconn2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-DHAS_AXSIG",
+            "-DHAS_ACORE",
+            "-o",
+            "pracct",
+            "pracct.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "pracct.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "getlogin",
+            "getlogin.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "getlogin.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "devrdev",
+            "devrdev.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "devrdev.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "zap",
+            "zap.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "zap.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "vfork3",
+            "vfork3.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "vfork3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tellwait1",
+            "tellwait1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "tellwait1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "recvfd2.o",
+            "recvfd2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2",
+        "file": "recvfd2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ruptimed.o",
+            "ruptimed.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "ruptimed.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "testerror",
+            "testerror.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "testerror.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "buf",
+            "buf.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "buf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "lockreg.o",
+            "lockreg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "lockreg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "threadid",
+            "threadid.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "threadid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "bindunix",
+            "bindunix.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2",
+        "file": "bindunix.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "condvar.o",
+            "condvar.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "condvar.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "clrfl.o",
+            "clrfl.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "clrfl.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "hole",
+            "hole.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/fileio",
+        "file": "hole.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/open.fe",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "openmax.o",
+            "openmax.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "openmax.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "signalintr.o",
+            "signalintr.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "signalintr.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "hello",
+            "hello.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "hello.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "fifo1",
+            "fifo1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/exercises",
+        "file": "fifo1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "fork1",
+            "fork1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "fork1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "request.o",
+            "request.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend.fe",
+        "file": "request.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ttymodes.o",
+            "ttymodes.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "ttymodes.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "vfork1",
+            "vfork1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "vfork1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "systest3.o",
+            "systest3.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "systest3.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "csize",
+            "csize.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "csize.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "getenv1.o",
+            "getenv1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "getenv1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ruptimed-dg.o",
+            "ruptimed-dg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "ruptimed-dg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "tempfiles",
+            "tempfiles.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/stdio",
+        "file": "tempfiles.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "pruids",
+            "pruids.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "pruids.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "loop.select.o",
+            "loop.select.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/opend",
+        "file": "loop.select.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "t_isatty",
+            "t_isatty.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "t_isatty.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "echoarg",
+            "echoarg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "echoarg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "reread.o",
+            "reread.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/daemons",
+        "file": "reread.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "driver.o",
+            "driver.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/pty",
+        "file": "driver.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "locktest.o",
+            "locktest.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "locktest.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "init.o",
+            "init.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/daemons",
+        "file": "init.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "isatty.o",
+            "isatty.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/termios",
+        "file": "isatty.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "seek",
+            "seek.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/fileio",
+        "file": "seek.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sendfd2.o",
+            "sendfd2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2",
+        "file": "sendfd2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "shell2",
+            "shell2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "shell2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "detach.o",
+            "detach.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threadctl",
+        "file": "detach.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "errorlog.o",
+            "errorlog.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "errorlog.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "open.o",
+            "open.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc2/open",
+        "file": "open.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "loop.o",
+            "loop.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/pty",
+        "file": "loop.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "system.o",
+            "system.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "system.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "times1",
+            "times1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "times1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "reenter",
+            "reenter.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "reenter.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "setfd.o",
+            "setfd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "setfd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ruptimed-fd.o",
+            "ruptimed-fd.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "ruptimed-fd.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "slock.o",
+            "slock.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "slock.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "prmask.o",
+            "prmask.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "prmask.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "doatexit",
+            "doatexit.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/environ",
+        "file": "doatexit.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "pipe2",
+            "pipe2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/ipc1",
+        "file": "pipe2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "signal.o",
+            "signal.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "signal.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "mutex1.o",
+            "mutex1.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "mutex1.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "sleepus.o",
+            "sleepus.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/lib",
+        "file": "sleepus.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-pthread",
+            "-o",
+            "cleanup",
+            "cleanup.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/threads",
+        "file": "cleanup.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "read2",
+            "read2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/signals",
+        "file": "read2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "uidgid",
+            "uidgid.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/intro",
+        "file": "uidgid.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "initsrv2.o",
+            "initsrv2.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "initsrv2.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "conf",
+            "conf.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/standards",
+        "file": "conf.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "ruptime-dg",
+            "ruptime-dg.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/sockets",
+        "file": "ruptime-dg.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "echoall",
+            "echoall.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/proc",
+        "file": "echoall.c"
+    },
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-ansi",
+            "-I../include",
+            "-Wall",
+            "-DLINUX",
+            "-D_GNU_SOURCE",
+            "-ggdb3",
+            "-o",
+            "access",
+            "access.c"
+        ],
+        "directory": "/home/wsh/src/apue.3e/filedir",
+        "file": "access.c"
+    }
+]
