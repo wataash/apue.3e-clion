@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="fig10.11 signals/read2" type="CLionExternalRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="apue.3e" TARGET_NAME="custom build target - make" CONFIG_NAME="custom build target - make" RUN_PATH="$PROJECT_DIR$/signals/read2">
+    <method v="2">
+      <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>
