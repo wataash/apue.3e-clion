@@ -9,7 +9,7 @@ LINK.c=$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 LDFLAGS=
 LDDIR=-L$(ROOT)/lib
 LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
-CFLAGS=-std=c99 -m64 -I$(ROOT)/include -Wall -DSOLARIS -D__EXTENSIONS__ $(EXTRA)
+CFLAGS=-std=c99 -m64 -I$(ROOT)/include -Wall -DSOLARIS -D__EXTENSIONS__ $(EXTRA) -ggdb3
 RANLIB=echo
 AR=ar
 AWK=nawk
