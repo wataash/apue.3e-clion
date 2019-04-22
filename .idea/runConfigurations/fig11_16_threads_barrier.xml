@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="fig11.16 threads/barrier" type="CLionExternalRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="apue.3e" TARGET_NAME="custom build target - make" CONFIG_NAME="custom build target - make" RUN_PATH="$PROJECT_DIR$/threads/barrier">
+  <configuration default="false" name="fig11.16 threads/barrier" type="CLionExternalRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="apue.3e-clion" TARGET_NAME="custom build target - make" CONFIG_NAME="custom build target - make" RUN_PATH="$PROJECT_DIR$/threads/barrier">
     <method v="2">
       <option name="CLION.EXTERNAL.BUILD" enabled="true" />
     </method>

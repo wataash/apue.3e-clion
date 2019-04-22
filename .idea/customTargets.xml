@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CLionExternalBuildManager">
-    <target id="9ccaac2b-89e3-4e95-8737-a2db6f9571f4" name="custom build target - make" projectName="apue.3e">
+    <target id="9ccaac2b-89e3-4e95-8737-a2db6f9571f4" name="custom build target - make" projectName="apue.3e-clion">
       <configuration id="af737c5d-94ab-47d2-ab7a-14035d5781ce" name="custom build target - make">
         <build type="TOOL">
           <tool actionId="Tool_External Tools_tool - make in ContentRoot" />

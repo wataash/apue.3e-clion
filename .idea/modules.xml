@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/apue.3e.iml" filepath="$PROJECT_DIR$/.idea/apue.3e.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/apue.3e-clion.iml" filepath="$PROJECT_DIR$/.idea/apue.3e-clion.iml" />
     </modules>
   </component>
 </project>
