@@ -39,6 +39,11 @@
 #define	DIR_MODE	(FILE_MODE | S_IXUSR | S_IXGRP | S_IXOTH)
 
 typedef	void	Sigfunc(int);	/* for signal handlers */
+sighandler_t	zzz_dummy_sighandler_t;  // GNU extension
+// typedef void (*__sighandler_t) (int); // slightly defer!
+
+Sigfunc *signal_(int signo, Sigfunc *func);
+// __sighandler_t signal (int __sig, __sighandler_t __handler);
 
 #define	min(a,b)	((a) < (b) ? (a) : (b))
 #define	max(a,b)	((a) > (b) ? (a) : (b))

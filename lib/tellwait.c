@@ -16,6 +16,9 @@ TELL_WAIT(void)
 		err_sys("signal(SIGUSR1) error");
 	if (signal(SIGUSR2, sig_usr) == SIG_ERR)
 		err_sys("signal(SIGUSR2) error");
+
+	// what if SIGUSR[12] here...?
+
 	sigemptyset(&zeromask);
 	sigemptyset(&newmask);
 	sigaddset(&newmask, SIGUSR1);

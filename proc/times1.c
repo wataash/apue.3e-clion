@@ -4,6 +4,8 @@
 static void	pr_times(clock_t, struct tms *, struct tms *);
 static void	do_cmd(char *);
 
+// "timeout 0.1 yes"
+
 int
 main(int argc, char *argv[])
 {

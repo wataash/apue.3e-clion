@@ -1,7 +1,7 @@
 #include "apue.h"
 #include <sys/wait.h>
 
-char	*env_init[] = { "USER=unknown", "PATH=/tmp", NULL };
+char	*env_init[] = { "USER=unknown", "PATH=/tmp", "FOO=", "BAR", NULL };
 
 int
 main(void)
@@ -11,7 +11,7 @@ main(void)
 	if ((pid = fork()) < 0) {
 		err_sys("fork error");
 	} else if (pid == 0) {	/* specify pathname, specify environment */
-		if (execle("/home/sar/bin/echoall", "echoall", "myarg1",
+		if (execle("/home/wsh/src/apue.3e-clion/proc/echoall", "echoall", "myarg1",
 				"MY ARG2", (char *)0, env_init) < 0)
 			err_sys("execle error");
 	}

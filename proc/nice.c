@@ -19,6 +19,7 @@ checktime(char *str)
 	struct timeval	tv;
 
 	gettimeofday(&tv, NULL);
+	// un-robust; second condition is probability problem
 	if (tv.tv_sec >= end.tv_sec && tv.tv_usec >= end.tv_usec) {
 		printf("%s count = %lld\n", str, count);
 		exit(0);

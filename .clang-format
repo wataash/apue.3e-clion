@@ -1,0 +1,8 @@
+BasedOnStyle: LLVM
+
+AlwaysBreakAfterDefinitionReturnType: All
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+IndentWidth: 8
+UseTab: ForContinuationAndIndentation

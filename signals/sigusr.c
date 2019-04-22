@@ -5,7 +5,7 @@ static void	sig_usr(int);	/* one handler for both signals */
 int
 main(void)
 {
-	if (signal(SIGUSR1, sig_usr) == SIG_ERR)
+	if (signal_(SIGUSR1, sig_usr) == SIG_ERR)
 		err_sys("can't catch SIGUSR1");
 	if (signal(SIGUSR2, sig_usr) == SIG_ERR)
 		err_sys("can't catch SIGUSR2");

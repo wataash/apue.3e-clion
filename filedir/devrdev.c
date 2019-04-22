@@ -1,4 +1,7 @@
 #include "apue.h"
+#ifdef LINUX
+#include <sys/sysmacros.h> // major()
+#endif
 #ifdef SOLARIS
 #include <sys/mkdev.h>
 #endif

@@ -2,13 +2,14 @@
 
 /* Reliable version of signal(), using POSIX sigaction().  */
 Sigfunc *
-signal(int signo, Sigfunc *func)
+signal_(int signo, Sigfunc *func)
 {
 	struct sigaction	act, oact;
 
 	act.sa_handler = func;
 	sigemptyset(&act.sa_mask);
 	act.sa_flags = 0;
+	(void)act.sa_restorer; // is private field
 	if (signo == SIGALRM) {
 #ifdef	SA_INTERRUPT
 		act.sa_flags |= SA_INTERRUPT;

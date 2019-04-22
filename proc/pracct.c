@@ -62,6 +62,9 @@ main(int argc, char *argv[])
 			acdata.ac_flag & AFORK ? 'F' : ' ',
 			acdata.ac_flag & ASU   ? 'S' : ' ');
 	}
+	int err = ferror(fp); // 0
+	err = feof(fp);       // 1
+
 	if (ferror(fp))
 		err_sys("read error");
 	exit(0);

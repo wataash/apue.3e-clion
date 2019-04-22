@@ -2,6 +2,14 @@
 
 static void charatatime(char *);
 
+// oouuttppuut fromt  parenft
+
+// output from parent
+// out
+
+// output from paoruetnptu
+// t from child
+
 int
 main(void)
 {
