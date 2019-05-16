@@ -17,7 +17,9 @@ main()
 		_exit(0);
 	}
 
+	// halt if child already has been slept 2 seconds; sig_cld() finished
 	pause();	/* parent */
+	printf("exit\n");
 	exit(0);
 }
 

@@ -18,6 +18,10 @@ main(void)
 	if (sigprocmask(SIG_BLOCK, &newmask, &oldmask) < 0)
 		err_sys("SIG_BLOCK error");
 
+	// first-sleep second-sleep
+	// ^\          ^\ -> no sig_quit() (why?)     coredump
+	//             ^\ ->    sig_quit()         no coredump
+
 	sleep(5);	/* SIGQUIT here will remain pending */
 
 	if (sigpending(&pendmask) < 0)
