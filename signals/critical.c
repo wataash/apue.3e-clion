@@ -18,16 +18,23 @@ main(void)
 	if (sigprocmask(SIG_BLOCK, &newmask, &oldmask) < 0)
 		err_sys("SIG_BLOCK error");
 
-	// first-sleep second-sleep
-	// ^\          ^\ -> no sig_quit() (why?)     coredump
-	//             ^\ ->    sig_quit()         no coredump
+	// first-sleep  unblock            second-sleep
+	// ^\           sig_quit()         ^\ -> coredump
+	//                                 ^\ -> sig_quit()  ^\ -> no coredump
 
-	sleep(5);	/* SIGQUIT here will remain pending */
+	// sleep(5);	/* SIGQUIT here will remain pending */
+	for (size_t i = 0; i < 5; i++) {
+		pr_mask("sleep 1");
+		sleep(1);
+	}
+	pr_mask("sleep 1 done");
 
 	if (sigpending(&pendmask) < 0)
 		err_sys("sigpending error");
 	if (sigismember(&pendmask, SIGQUIT))
 		printf("\nSIGQUIT pending\n");
+
+	pr_mask("sigispending() done");
 
 	/*
 	 * Restore signal mask which unblocks SIGQUIT.
@@ -36,7 +43,13 @@ main(void)
 		err_sys("SIG_SETMASK error");
 	printf("SIGQUIT unblocked\n");
 
-	sleep(5);	/* SIGQUIT here will terminate with core file */
+	// sleep(5);	/* SIGQUIT here will terminate with core file */
+	for (size_t i = 0; i < 5; i++) {
+		pr_mask("sleep 2");
+		sleep(1);
+	}
+	pr_mask("sleep 2 done");
+
 	exit(0);
 }
 

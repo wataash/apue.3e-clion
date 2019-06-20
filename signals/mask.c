@@ -17,8 +17,11 @@ main(void)
 
 	pr_mask("starting main: ");		/* {Prog prmask} */
 
+	// if (setjmp(jmpbuf)) {
 	if (sigsetjmp(jmpbuf, 1)) {
 
+		//    setjump: SIGUSR1
+		// sigsetjump: none
 		pr_mask("ending main: ");
 
 		exit(0);
@@ -48,6 +51,7 @@ sig_usr1(int signo)
 	pr_mask("finishing sig_usr1: ");
 
 	canjump = 0;
+	// longjmp(jmpbuf, 1);
 	siglongjmp(jmpbuf, 1);	/* jump back to main, don't return */
 }
 

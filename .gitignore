@@ -1,4 +1,5 @@
 compile_commands.json
+*.o
 
 # for macOS
 *.dSYM/
@@ -9,7 +10,6 @@ advio/mcopy2
 advio/nonblockw
 advio/rot13a
 advio/rot13c2
-advio/rot13c2.c
 advio/xlate
 datafiles/strftime
 db/libapue_db.so

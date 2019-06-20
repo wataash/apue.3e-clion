@@ -1,5 +1,6 @@
 #include "apue.h"
 #include <fcntl.h>
+#include <sys/sysmacros.h>
 
 /*
 https://stackoverflow.com/q/38802364/4085441

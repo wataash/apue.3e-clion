@@ -20,7 +20,7 @@ main(void)
 
 	if ((fd = open("/dev/zero", O_RDWR)) < 0)
 		err_sys("open error");
-	if ((area = mmap(0, SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
+	if ((area = mmap(NULL, SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
 	  fd, 0)) == MAP_FAILED)
 		err_sys("mmap error");
 	close(fd);		/* can close /dev/zero now that it's mapped */
@@ -31,6 +31,7 @@ main(void)
 		err_sys("fork error");
 	} else if (pid > 0) {			/* parent */
 		for (i = 0; i < NLOOPS; i += 2) {
+			printf("\x1b[32m parent: %d \x1b[0m\n", i);
 			if ((counter = update((long *)area)) != i)
 				err_quit("parent: expected %d, got %d", i, counter);
 
@@ -39,6 +40,7 @@ main(void)
 		}
 	} else {						/* child */
 		for (i = 1; i < NLOOPS + 1; i += 2) {
+			printf("\x1b[33m child: %d \x1b[0m\n", i);
 			WAIT_PARENT();
 
 			if ((counter = update((long *)area)) != i)

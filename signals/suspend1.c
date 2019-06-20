@@ -33,6 +33,9 @@ main(void)
 	if (sigsuspend(&waitmask) != -1)
 		err_sys("sigsuspend error");
 
+	// not reached if SIGUSR1 was pending
+
+	// mask: SIGINT (no SIGUSR1!)
 	pr_mask("after return from sigsuspend: ");
 
 	/*
@@ -52,5 +55,7 @@ main(void)
 static void
 sig_int(int signo)
 {
+	// mask: SIGINT SIGUSR1
 	pr_mask("\nin sig_int: ");
+	// terminates when return if SIGUSR1 pending
 }
