@@ -1,5 +1,7 @@
 #include "apue.h"
 
+// copy paste me to any of signals/*.c which have main()
+
 static void
 sig_alrm(int signo)
 {

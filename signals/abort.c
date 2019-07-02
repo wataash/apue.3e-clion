@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+// copy paste me to any of signals/*.c which have main()
+
 void
 abort(void)			/* POSIX-style abort() function */
 {
@@ -17,6 +19,7 @@ abort(void)			/* POSIX-style abort() function */
 	}
 	if (action.sa_handler == SIG_DFL)
 		fflush(NULL);			/* flush all open stdio streams */
+	// else: user-defined handler for SIGABRT set
 
 	/* Caller can't block SIGABRT; make sure it's unblocked */
 	sigfillset(&mask);
@@ -25,6 +28,7 @@ abort(void)			/* POSIX-style abort() function */
 	kill(getpid(), SIGABRT);	/* send the signal */
 
 	/* If we're here, process caught SIGABRT and returned */
+	// (user-defined handler for SIGABRT set)
 	fflush(NULL);				/* flush all open stdio streams */
 	action.sa_handler = SIG_DFL;
 	sigaction(SIGABRT, &action, NULL);	/* reset to default */

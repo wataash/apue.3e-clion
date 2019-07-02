@@ -8,6 +8,7 @@ sig_tstp(int signo)	/* signal handler for SIGTSTP */
 	sigset_t	mask;
 
 	/* ... move cursor to lower left corner, reset tty mode ... */
+	puts("... move cursor to lower left corner, reset tty mode ... ");
 
 	/*
 	 * Unblock SIGTSTP, since it's blocked while we're handling it.

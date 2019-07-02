@@ -42,6 +42,7 @@ typedef	void	Sigfunc(int);	/* for signal handlers */
 sighandler_t	zzz_dummy_sighandler_t;  // GNU extension
 // typedef void (*__sighandler_t) (int); // slightly defer!
 
+static inline void dummy_signal(void) { (void)signal; (void)dummy_signal; };
 Sigfunc *signal_(int signo, Sigfunc *func);
 // __sighandler_t signal (int __sig, __sighandler_t __handler);
 

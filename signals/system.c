@@ -4,7 +4,7 @@
 #include	<unistd.h>
 
 int
-system(const char *cmdstring)	/* with appropriate signal handling */
+system_(const char *cmdstring)	/* with appropriate signal handling */
 {
 	pid_t				pid;
 	int					status;
