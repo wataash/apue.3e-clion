@@ -4,16 +4,21 @@
 # C programs using gcc.
 
 CC=gcc
+# https://scrapbox.io/wataash/make
 COMPILE.c=$(CC) $(CFLAGS) $(CPPFLAGS) -c
 LINK.c=$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS)
 LDFLAGS=
 LDDIR=-L$(ROOT)/lib
+LDDIR=-L$(ROOT)/lib -L$(ROOT)/libxx
 LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
+LDLIBS=$(LDDIR) -lapue $(EXTRALIBS) -lxx -lstdc++
 CFLAGS=-I$(ROOT)/include -Wall -DLINUX -D_GNU_SOURCE $(EXTRA) -ggdb3 -Wno-unused-but-set-variable -Wno-unused-variable
+CXXFLAGS=$(CFLAGS)
 RANLIB=echo
 AR=ar
 AWK=awk
 LIBAPUE=$(ROOT)/lib/libapue.a
+LIBAPUE=$(ROOT)/lib/libapue.a $(ROOT)/lib/libxx.a
 
 # Common temp files to delete from each directory.
 TEMPFILES=core core.* *.o temp.* *.out

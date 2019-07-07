@@ -26,6 +26,10 @@
 #include <unistd.h>		/* for convenience */
 #include <signal.h>		/* for SIG_ERR */
 
+__BEGIN_DECLS
+int cppfunc(void);
+__END_DECLS
+
 #define	MAXLINE	4096			/* max line length */
 
 /*
