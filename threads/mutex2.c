@@ -38,6 +38,7 @@ foo_alloc(int id) /* allocate the object */
 		/* ... continue initialization ... */
 		pthread_mutex_unlock(&fp->f_lock);
 	}
+	// should return NULL on malloc failed
 	return(fp);
 }
 

@@ -22,6 +22,7 @@ foo_alloc(int id) /* allocate the object */
 		}
 		/* ... continue initialization ... */
 	}
+	// should return NULL on malloc failed
 	return(fp);
 }
 
@@ -39,6 +40,7 @@ foo_rele(struct foo *fp) /* release a reference to the object */
 	pthread_mutex_lock(&fp->f_lock);
 	if (--fp->f_count == 0) { /* last reference */
 		pthread_mutex_unlock(&fp->f_lock);
+		// race here?
 		pthread_mutex_destroy(&fp->f_lock);
 		free(fp);
 	} else {

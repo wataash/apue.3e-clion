@@ -1,4 +1,5 @@
 #include "apue.h"
+#include <errno.h>
 #include <pthread.h>
 
 void
@@ -45,6 +46,19 @@ main(void)
 	err = pthread_create(&tid1, NULL, thr_fn1, (void *)1);
 	if (err != 0)
 		err_exit(err, "can't create thread 1");
+
+	(void)ESRCH;
+	(void)PTHREAD_CANCELED;
+	// err = pthread_cancel(tid1);      // 0 or ESRCH if already returned
+	// err = pthread_cancel(tid1);      // 0 or ESRCH if already returned or cancelled
+	// err = pthread_join(tid1, &tret); // 0, 0x01 or 0, PTHREAD_CANCELED
+	// err = pthread_join(tid1, &tret); // ESRCH
+
+	(void)EINVAL;
+	// err = pthread_detach(tid1);      // 0
+	// err = pthread_detach(tid1);      // EINVAL
+	// err = pthread_join(tid1, &tret); // EINVAL (undefined behavior)
+
 	err = pthread_create(&tid2, NULL, thr_fn2, (void *)1);
 	if (err != 0)
 		err_exit(err, "can't create thread 2");
