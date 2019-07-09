@@ -3,7 +3,7 @@ DIRS = lib libxx intro sockets advio daemons datafiles db environ \
 	stdio termios threadctl threads printer exercises
 
 # fast
-DIRS = lib libxx threads
+DIRS = lib libxx daemons ipc1
 
 all:
 	for i in $(DIRS); do \

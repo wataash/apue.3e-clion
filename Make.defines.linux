@@ -18,7 +18,7 @@ RANLIB=echo
 AR=ar
 AWK=awk
 LIBAPUE=$(ROOT)/lib/libapue.a
-LIBAPUE=$(ROOT)/lib/libapue.a $(ROOT)/lib/libxx.a
+LIBAPUE=$(ROOT)/lib/libapue.a $(ROOT)/libxx/libxx.a
 
 # Common temp files to delete from each directory.
 TEMPFILES=core core.* *.o temp.* *.out

@@ -77,6 +77,8 @@ merge()
 	}
 }
 
+// copy mutex[1-3].c here
+
 int
 main()
 {

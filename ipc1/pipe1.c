@@ -3,6 +3,9 @@
 int
 main(void)
 {
+	// daemons/init.c
+	// daemonize("foo");
+
 	int		n;
 	int		fd[2];
 	pid_t	pid;
