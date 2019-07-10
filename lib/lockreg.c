@@ -4,6 +4,15 @@
 int
 lock_reg(int fd, int cmd, int type, off_t offset, int whence, off_t len)
 {
+	(void)cmd;
+	(void)F_SETLK;
+	(void)F_SETLKW;
+
+	(void)type;
+	(void)F_RDLCK;
+	(void)F_WRLCK;
+	(void)F_UNLCK;
+
 	struct flock	lock;
 
 	lock.l_type = type;		/* F_RDLCK, F_WRLCK, F_UNLCK */

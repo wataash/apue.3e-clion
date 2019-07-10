@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="fig14.9 advio/lockfile" type="CLionExternalRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="apue.3e-clion" TARGET_NAME="custom build target - make" CONFIG_NAME="custom build target - make" RUN_PATH="$PROJECT_DIR$/advio/lockfile">
-    <method v="2">
-      <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-    </method>
-  </configuration>
-</component>

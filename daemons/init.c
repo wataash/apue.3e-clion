@@ -3,6 +3,9 @@
 #include <fcntl.h>
 #include <sys/resource.h>
 
+// try in sandbox.c:
+// daemonize("foo");
+
 void
 daemonize(const char *cmd)
 {

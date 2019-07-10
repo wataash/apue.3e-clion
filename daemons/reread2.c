@@ -1,3 +1,5 @@
+// try in sandbox.c; comment out already_running()
+
 #include "apue.h"
 #include <syslog.h>
 #include <errno.h>
@@ -11,9 +13,11 @@ reread(void)
 	/* ... */
 }
 
+// in clion: can't catch SIGTERM?
 void
 sigterm(int signo)
 {
+	pr_mask("sigterm"); // mask: HUP TERM
 	syslog(LOG_INFO, "got SIGTERM; exiting");
 	exit(0);
 }
@@ -21,6 +25,7 @@ sigterm(int signo)
 void
 sighup(int signo)
 {
+	pr_mask("sighup"); // mask: HUP TERM
 	syslog(LOG_INFO, "Re-reading configuration file");
 	reread();
 }
@@ -39,15 +44,15 @@ main(int argc, char *argv[])
 	/*
 	 * Become a daemon.
 	 */
-	daemonize(cmd);
+	// daemonize(cmd);
 
 	/*
 	 * Make sure only one copy of the daemon is running.
 	 */
-	if (already_running()) {
-		syslog(LOG_ERR, "daemon already running");
-		exit(1);
-	}
+	// if (already_running()) {
+	// 	syslog(LOG_ERR, "daemon already running");
+	// 	exit(1);
+	// }
 
 	/*
 	 * Handle signals of interest.
@@ -67,6 +72,14 @@ main(int argc, char *argv[])
 	if (sigaction(SIGHUP, &sa, NULL) < 0) {
 		syslog(LOG_ERR, "can't catch SIGHUP: %s", strerror(errno));
 		exit(1);
+	}
+
+	for (;;) {
+		int n = read(0, NULL, 1);
+		int e = errno; // EINTR or EFAULT
+		e = 0;
+		(void)EINTR;
+		(void)EFAULT;
 	}
 
 	/*

@@ -1,3 +1,5 @@
+// try in sandbox.c; comment out already_running()
+
 #include "apue.h"
 #include <pthread.h>
 #include <syslog.h>
@@ -57,27 +59,33 @@ main(int argc, char *argv[])
 	/*
 	 * Become a daemon.
 	 */
-	daemonize(cmd);
+	// daemonize(cmd);
 
 	/*
 	 * Make sure only one copy of the daemon is running.
 	 */
-	if (already_running()) {
-		syslog(LOG_ERR, "daemon already running");
-		exit(1);
-	}
+	// if (already_running()) {
+	// 	syslog(LOG_ERR, "daemon already running");
+	// 	exit(1);
+	// }
 
 	/*
 	 * Restore SIGHUP default and block all signals.
 	 */
+
+	// not needed for linux
 	sa.sa_handler = SIG_DFL;
 	sigemptyset(&sa.sa_mask);
 	sa.sa_flags = 0;
 	if (sigaction(SIGHUP, &sa, NULL) < 0)
 		err_quit("%s: can't restore SIGHUP default");
+
 	sigfillset(&mask);
 	if ((err = pthread_sigmask(SIG_BLOCK, &mask, NULL)) != 0)
 		err_exit(err, "SIG_BLOCK error");
+
+	// test
+	thr_fn(NULL);
 
 	/*
 	 * Create a thread to handle SIGHUP and SIGTERM.

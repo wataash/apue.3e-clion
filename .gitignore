@@ -1,6 +1,8 @@
 *.o
 /.idea/workspace.xml
 /compile_commands.json
+/sandbox
+/libxx/libxx.a
 
 /advio/deadlock
 /advio/mandatory
