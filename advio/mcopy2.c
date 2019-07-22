@@ -1,3 +1,5 @@
+// mcopy2 /etc/services /tmp/apue
+
 #include "apue.h"
 #include <fcntl.h>
 #include <sys/mman.h>
@@ -35,6 +37,7 @@ main(int argc, char *argv[])
 		else
 			copysz = sbuf.st_size - fsz;
 
+		// if ((src = mmap(0x7fff7ff0000, copysz, PROT_READ, MAP_SHARED,
 		if ((src = mmap(0, copysz, PROT_READ, MAP_SHARED,
 		  fdin, fsz)) == MAP_FAILED)
 			err_sys("mmap error for input");
