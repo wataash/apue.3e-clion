@@ -19,6 +19,7 @@
 #include <sys/ioctl.h>
 #endif
 
+#include <errno.h>
 #include <stdio.h>		/* for convenience */
 #include <stdlib.h>		/* for convenience */
 #include <stddef.h>		/* for offsetof */

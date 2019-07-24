@@ -6,7 +6,7 @@ main(void)
 	int		n, int1, int2;
 	char	line[MAXLINE];
 
-	while ((n = read(STDIN_FILENO, line, MAXLINE)) > 0) {
+	while ((n = read(STDIN_FILENO, line, MAXLINE - 1)) > 0) {
 		line[n] = 0;		/* null terminate */
 		if (sscanf(line, "%d%d", &int1, &int2) == 2) {
 			sprintf(line, "%d\n", int1 + int2);
