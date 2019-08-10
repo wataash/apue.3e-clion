@@ -56,7 +56,7 @@ main(int argc, char *argv[])
 		err_sys("malloc error");
 	if (gethostname(host, n) < 0)
 		err_sys("gethostname error");
-	daemonize("ruptimed");
+	// daemonize("ruptimed");
 	memset(&hint, 0, sizeof(hint));
 	hint.ai_flags = AI_CANONNAME;
 	hint.ai_socktype = SOCK_STREAM;

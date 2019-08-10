@@ -7,9 +7,11 @@ ifeq "$(PLATFORM)" "solaris"
 endif
 
 PROGS = ruptime ruptimed ruptimed-fd ruptimed-dg
+PROGS = ruptime ruptimed ruptimed-fd ruptimed-dg clconn
 MOREPROGS = findsvc ruptime-dg
 
-all:	$(PROGS) $(MOREPROGS) clconn.o clconn2.o initsrv1.o initsrv2.o 
+# all:	$(PROGS) $(MOREPROGS) clconn.o clconn2.o initsrv1.o initsrv2.o
+all:	$(PROGS) $(MOREPROGS) clconn.o clconn2.o initsrv1.o initsrv2.o
 
 %:	%.c $(LIBAPUE)
 

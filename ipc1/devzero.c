@@ -20,7 +20,7 @@ main(void)
 
 	if ((fd = open("/dev/zero", O_RDWR)) < 0)
 		err_sys("open error");
-	if ((area = mmap(NULL, SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
+	if ((area = mmap(0, SIZE, PROT_READ | PROT_WRITE, MAP_SHARED,
 	  fd, 0)) == MAP_FAILED)
 		err_sys("mmap error");
 	close(fd);		/* can close /dev/zero now that it's mapped */

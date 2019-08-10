@@ -84,11 +84,11 @@ main()
 {
 	// mutex1.c
 	{
-		struct foo *fp = foo_alloc(31);
-		foo_hold(fp);
-		foo_rele(fp);
-		foo_rele(fp);
-		int breakpoint = 1;
+		// struct foo *fp = foo_alloc(31);
+		// foo_hold(fp);
+		// foo_rele(fp);
+		// foo_rele(fp);
+		// int breakpoint = 1;
 	}
 
 	unsigned long	i;

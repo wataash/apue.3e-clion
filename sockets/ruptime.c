@@ -20,6 +20,7 @@ print_uptime(int sockfd)
 		err_sys("recv error");
 }
 
+// localhost
 int
 main(int argc, char *argv[])
 {

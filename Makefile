@@ -3,7 +3,7 @@ DIRS = lib libxx intro sockets advio daemons datafiles db environ \
 	stdio termios threadctl threads printer exercises
 
 # fast
-DIRS = lib libxx advio
+#DIRS = lib libxx advio
 
 all: all_orig sandbox
 

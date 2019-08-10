@@ -107,6 +107,7 @@ main(int argc, char *argv[])
 	int 				err;
 	char 				abuf[INET_ADDRSTRLEN];
 
+	// localhost www
 	if (argc != 3)
 		err_quit("usage: %s nodename service", argv[0]);
 	hint.ai_flags = AI_CANONNAME;

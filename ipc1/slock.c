@@ -49,3 +49,16 @@ s_unlock(struct slock *sp)
 {
 	return(sem_post(sp->semp));
 }
+
+int
+main(int argc, char *argv[])
+{
+	int rv, e;
+	struct slock *sp = s_alloc();
+	rv = s_lock(sp);    // 0
+	rv = s_trylock(sp); // -1
+	e = errno;          // EAGAIN
+	rv = s_unlock(sp);  // 0
+	rv = s_trylock(sp); // 0
+	s_free(sp);
+}
